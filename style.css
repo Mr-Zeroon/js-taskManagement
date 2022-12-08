@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu{
+    width: 95%;
+    height: 600px;
+    border: 2px solid black;
+    background-color: rgb(40, 107, 128);
+}
+/* title */
+.menu-title{
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+/* Task */
+.menu-task{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+/* task-input */
+.menu-content{
+    width: 30%;
+    height: 20vh;
+    border: 1px solid black; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.menu-content-input{
+    margin-top: 10px;
+}
+.menu-content-input p{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.menu-content-select p{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.menu-content-select select{
+    width: 173px;
+} 
+.menu-content-button{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.menu-content-button button{
+    padding: 5px 10px;
+    color: white;
+    background-color: red ;
+    border: none;
+    font-weight: bold;
+}
+/* taskList */
+.menu-taskList{
+    width: 60%;
+    height: 60vh;
+    border: 1px solid black; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.menu-taskList-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.menu-taskList-title p{
+    font-size: 25px;
+    color: yellowgreen;
+}
+/* Table */
+.table{
+    width: 100%;
+    margin: 15px auto;
+    border-collapse: collapse;
+   
+  }
+  .table > thead{
+    background-color: crimson;
+  }
+  
+  .table th, table td {
+    border: 2spx solid white;
+  }
+  .table-main{
+    color: white;
+    background-color: rgb(107, 40, 128);
+  }
+.done-task {
+    text-decoration: line-through;
+}

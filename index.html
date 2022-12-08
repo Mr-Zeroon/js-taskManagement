@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu-title">
+            <p>Task Management</p>
+        </div>
+        <div class="menu-task">
+            <form class="menu-content">
+                <table>
+                    <tr class="menu-content-input">
+                        <td><p>Task Name</p></td>
+                        <td><input class="input-TaskName" type="text"></td>
+                    </tr>
+                    <tr class="menu-content-input">   
+                        <td><p>Task Description</p></td>
+                        <td><input class="input-TaskDescription" type="text"></td>
+                    </tr>
+                    <tr class="menu-content-select">
+                        <td><p>Prionty</p></td>
+                        <td><select class="select-Prionty" name="" id="">
+                                <option data="" type="">Hight</option>
+                                <option data="" type="">Medium</option>
+                                <option data="" type="">Low</option>
+                        </select></td>
+                    </tr>
+                </table>
+
+                
+                <div class="menu-content-button">
+                    <button class="btn-Submit">Submit</button>
+                    <button class="btn-Reset">Reset</button>
+                </div>
+            </form>
+
+
+            
+            <div class="menu-taskList">
+                <div class="menu-taskList-title">
+                    <p>Task List</p>
+                </div>
+                
+                <div class="menu-taskList-content">
+                    <table class="table">
+                        <thead>
+                          <tr class="table-main">
+                            <th scope="col">Task Name</th>
+                            <th scope="col">Ngày Tạo</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Prionty</th>
+                            <th scope="col">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody class="js-result"> 
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
